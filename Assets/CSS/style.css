@@ -1922,6 +1922,9 @@ footer {
     .footer-grid-row>div:nth-child(6) {
         display: block;
     }
+      .positioning-wrapper p:nth-child(1){
+        display: none;
+    }
 }
 
 @media screen and (max-width: 540px) {
