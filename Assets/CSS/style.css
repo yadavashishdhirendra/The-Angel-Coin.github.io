@@ -229,7 +229,7 @@ nav.scrolled .Navbar-wrapper ul li .nav-link {
     background-position: center center;
 }
 
-.s{
+.banner-wrapper {
     position: relative;
     top: 0;
 }
@@ -1737,8 +1737,8 @@ nav.scrolled .Navbar-wrapper ul li .nav-link {
 #particles-js {
     width: 100%;
     height: 100vh !important;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url('../Images/bg.jpg');
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../Images/bg.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url('../Images/bg.jpg');
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../Images/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -1851,8 +1851,8 @@ form textarea {
 
 footer {
     background-color: transparent;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#EFF1FE), to(#FFFFFF));
     background-image: -o-linear-gradient(top, #EFF1FE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#EFF1FE), to(#FFFFFF));
     background-image: linear-gradient(180deg, #EFF1FE 0%, #FFFFFF 100%);
 }
 
