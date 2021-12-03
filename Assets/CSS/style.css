@@ -223,6 +223,13 @@ nav.scrolled .Navbar-wrapper ul li .nav-link {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    background-image: url('../Images/hero-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.s{
     position: relative;
     top: 0;
 }
@@ -283,7 +290,13 @@ nav.scrolled .Navbar-wrapper ul li .nav-link {
 
 .banner-text {
     position: absolute;
-    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 
 .banner-text h1 {
@@ -1904,7 +1917,7 @@ footer {
 }
 
 @media screen and (max-width: 1080px) {
-    #particles-js{
+    #particles-js {
         background-position: 50%;
     }
 }
@@ -1928,7 +1941,8 @@ footer {
     .footer-grid-row>div:nth-child(6) {
         display: block;
     }
-      .positioning-wrapper p:nth-child(1){
+
+    .positioning-wrapper p:nth-child(1) {
         display: none;
     }
 }
@@ -1952,5 +1966,6 @@ footer {
         font-size: calc(22pt + 0.15vw);
     }
 }
+
 
 /* footer component ends here */
