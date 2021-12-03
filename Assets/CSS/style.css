@@ -1969,3 +1969,29 @@ footer {
 
 
 /* footer component ends here */
+
+/* Roadmap component starts here */
+#RoadMap_section{
+    padding: 50px 0px 50px 0px;
+}
+
+#large{
+    pointer-events: none;
+    width: 100%;
+}
+
+#mobile{
+    pointer-events: none;
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    #large{
+        display: none;
+    }
+    #mobile{
+        display: block;
+        width: 100%;
+    }
+}
+/* Roadmap component ends here */
